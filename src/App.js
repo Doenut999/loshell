@@ -1,7 +1,11 @@
+import NavBar from "./Components/NavBar";
+import UserMenu from "./Components/UserMenu";
+
 const App = ()  =>{
   return (
     <div className="App">
-      <h1>Root Component</h1>
+        <NavBar />
+        <UserMenu />
     </div>
   );
 }
